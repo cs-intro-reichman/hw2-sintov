@@ -3,7 +3,6 @@ public class Cheers {
         public static void main(String[] args) {
             String anLetters = "AEFHILNMNORSX";
             String crowdWord = args[0].toUpperCase();
-            System.out.println(crowdWord);
             int numberOfTimes = Integer.parseInt(args[1]);
             for (int i = 0; i < crowdWord.length(); i++){
                 char letter = crowdWord.charAt(i);
